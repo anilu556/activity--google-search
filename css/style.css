@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin: 40px auto 0px auto;
+	width: 484px;
+	position: relative;
+}
+
+.buscador{
+	width: 484px;
+	height: 44px;
+	border-color: rgba(0, 0, 0, 0.16);
+	border-radius: 2px;
+	margin-bottom: 25px;
+}
+
+.fa-microphone{
+	position: absolute;
+	top: 14px;
+	right: 15px;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.4);	
+	font-weight: bold;
+
+}
+
+.google{
+	background-color: #F2F2F2;
+	margin-right: 10px;
+	border-color: #F2F2F2;
+	padding: 16px;
+}
+
+.lucky{
+	background-color: #F2F2F2;
+	border-color: #F2F2F2;
+	padding: 16px;
+}
